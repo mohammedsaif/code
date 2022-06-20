@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~font-awesome/css/font-awesome.css';
+@font-face {
+  font-family: "SourceSansPro-SemiBold";
+  src: url("../src/assets/fonts/sourceSansPro/SourceSansPro-SemiBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: "SourceSansPro-Bold";
+    src: url("../src/assets/fonts/sourceSansPro/SourceSansPro-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "SourceSansPro-Regular";
+    src: url("../src/assets/fonts/sourceSansPro/SourceSansPro-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  :root {
+    --blue: #0f5EF0;
+    --btn-color:#0063e6;
+    --white: #ffffff;
+    --grey:#7A8594;
+    --light-grey:#737373;
+    --dark:#1A1A1A;
+  }
+  .font-semi-bold{
+    font-family: "SourceSansPro-SemiBold", sans-serif;
+  }
+  .font-bold{
+    font-family: "SourceSansPro-Bold", sans-serif;
+  }
+  .font-regular{
+    font-family: "SourceSansPro-Regular", sans-serif;
+  }
+  .font-size-12{
+    font-size:12px;
+  }
+  .mr-20{
+    margin-top:20px;
+  }

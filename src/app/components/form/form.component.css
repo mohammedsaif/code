@@ -1,0 +1,43 @@
+.form-conatiner{
+    padding:2.5rem;
+    
+}
+.form-control-cls{
+    display: flex;
+    flex-direction: column;
+}
+input {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.header-label{
+    font-size:14px;
+    color:var(--dark);
+}
+
+::placeholder {
+    color: var(--light-grey);
+    font-size: 14px;
+    font-family: "SourceSansPro-Regular", sans-serif;
+  }
+  .btn-save{
+    color:var(--white);
+    background-color: var(--btn-color);
+     width: 32%;
+     margin-top:2rem;
+     height: 2.25rem;
+     border: 1px solid transparent;
+     border-radius: 4px;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  .btn-save:hover{
+    background-color: #f0f6ff;
+  }

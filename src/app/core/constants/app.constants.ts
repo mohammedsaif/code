@@ -1,0 +1,1 @@
+export const CONFIG_URL = `https://raw.githubusercontent.com/epsilon-ux/code-challenge-resources/main/cookies.json`;

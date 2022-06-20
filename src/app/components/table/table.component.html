@@ -1,0 +1,25 @@
+<table>
+    <thead>
+        <tr>
+            <th [appSort]="tableData" data-order="desc" data-name="name" scope="col" class="font-bold">
+                {{tableHeaders[0].name}}
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </th>
+            <th [appSort]="tableData" data-order="desc" data-name="price" scope="col" class="font-bold">
+                {{tableHeaders[1].name}}
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </th>
+            <th [appSort]="tableData" data-order="desc" data-name="category" scope="col" class="font-bold right-align">
+                {{tableHeaders[2].name}}
+                <i class="fa fa-caret-down" aria-hidden="true"></i>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of tableData">
+            <td class="font-regular cell-cls">{{ data.name }}</td>
+            <td class="font-regular cell-cls">{{ data.price }}</td>
+            <td class="font-regular cell-cls right-align">{{ data.category }}</td>
+        </tr>
+    </tbody>
+</table>

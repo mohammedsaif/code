@@ -1,0 +1,32 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    border: 1px solid #cccaca;
+    
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  th{
+    background-color: #f7f7f7;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  tr:hover {
+    background-color: #f0f6ff;
+  }
+  i:hover {
+    color: var(--blue);
+  }
+  .cell-cls{
+    padding-top: 14px;
+    padding-bottom: 13px;
+  }
+  .right-align{
+    text-align: center;
+  }
